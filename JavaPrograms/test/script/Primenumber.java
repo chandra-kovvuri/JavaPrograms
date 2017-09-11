@@ -13,7 +13,7 @@ public class Primenumber {
 		Date d = new Date();
 		int i;
 		String start =sdf.format(d);
-		for (i=2;i<a;i++){
+		for (i=1;i<=a;i++){
 			for (int j=2;j<i;j++){
 				if (i%j==0){
 					prime=false;
@@ -37,6 +37,9 @@ public class Primenumber {
 		Date d1 = new Date();
 		System.out.println(sdf1.format(d1));
 		
+	}
+	public void  sampleMethod(){
+		System.out.println("in sample method");
 	}
 
 }

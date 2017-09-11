@@ -1,6 +1,6 @@
 package script;
 
- class Immutabletest{  
+ final class Immutabletest{  
 	 final int speedlimit;//final variable  
 	 final static int test;
 	 Immutabletest(int speed){

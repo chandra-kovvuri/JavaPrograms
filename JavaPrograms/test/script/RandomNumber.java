@@ -32,10 +32,11 @@ package script;
 	           int i= Integer.parseInt(sn);
 	           System.out.println(i);
 	           //Changing into string
-	           int m=10;
+	           int m=10456;
 	           String sss="";
 	           sss= String.valueOf(m);
 	           System.out.println(sss);
+	           System.out.println(sss.substring(1,5));
 	           
 
 	 }

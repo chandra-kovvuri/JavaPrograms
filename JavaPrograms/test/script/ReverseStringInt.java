@@ -5,19 +5,6 @@ import java.util.Scanner;
 class ReverseStringInt{
 	public static void main(String[] agrs) {
 		String str = "abcd";
-		/*char [] arrl =new char[5];
-		arrl[0]='c';
-		arrl[1]='h';
-		arrl[2]='a';
-		arrl[3]='n';
-		arrl[4]='d';
-		System.out.println("The length of character array is  "+arrl.length);
-		for (int x=0; x<arrl.length;x++){
-			System.out.println("The values of char arry is  "+arrl[x]);
-		}
-		for (int y=0; y<str.length();y++){
-			System.out.println("The values of char arry is  "+str.charAt(y));
-		}*/
 		int i =str.length();
 		char[] chr = new char[i];
 		for (int j = 0,k=i-1;j<i;j++,k--) {
